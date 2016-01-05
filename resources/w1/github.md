@@ -11,7 +11,7 @@ Professionally, the command line client is most commonly used to manage the crea
 *Repository* - A collection of files along with metadata which allows git to keep 'snapshots' of all the changes these files have undergone. Git allows us to travel back in time to previous edits if we've made a huge blunder, to examine each change a collection of files has undergone in detail, and to associate a set of changes with the person who made them.  
 
 *Branch* - An organizational concept for 'snapshots' of a repository; a collection of commits. Typically, a software project will have a 'master' branch along with a host of supplementary branches on which developers work with the intention of 'merging' the changes they've made onto 'master'.  
-*BRANCHES PIC HERE*
+![Git branches](img/branches.png)
 
 *Commit* - A snapshot of the repository at some point in time. After changing a set of files, you can commit the changes you would like to keep. These changes will be part of a new 'snapshot' of the repository.
 
@@ -22,19 +22,21 @@ Professionally, the command line client is most commonly used to manage the crea
 *Pull request* - A request to pull one branch into another, merging their changes. After writing a new feature, testing it, and deciding that it is ready to be used, we'll normally make a 'pull request' on the 'master' branch to incorporate the changes we've made.  
 
 ####Setup
-To use the github client, it is first necessary to [create an account](https://github.com/join). You'll be using this account to access content stored on github. After [downloading](https://desktop.github.com) and installing the github client, you'll be asked to enter either your github username or your email along with your password.
-
-*LANDING PIC HERE*
+To use the github client, it is first necessary to [create an account](https://github.com/join). You'll be using this account to access content stored on github. After [downloading](https://desktop.github.com) and installing the github client, you'll be asked to enter either your github username or your email along with your password.  
 
 ####Tutorial
 Upon logging into the GitHub client, you'll have the option of completing a tutorial on the most common method for updating a collection of files.  
-*TUTORIAL PIC 1 HERE*  
+![Github tutorial 1](img/github-1-tutorial.png)
 These three steps are:  
 1. Make a new branch (copy the files we would like to make edits to into a new, working branch which is safe to change)  
+![Github tutorial 2](img/github-2-tutorial.png)
 *TUTORIAL PIC 2 HERE*
 2. Make changes (change files on our working branch and commit the ones you want to keep)  
+![Github tutorial 3](img/github-3-tutorial.png)
+![Github tutorial 4](img/github-4-tutorial.png)
+![Github tutorial 5](img/github-5-tutorial.png)
 *TUTORIAL PIC 3-5 HERE*
 3. Open a pull request (request that our working branch changes be incorporated back onto the main branch)  
-*TUTORIAL PIC 6 HERE*
+![Github tutorial 6](img/github-6-tutorial.png)
 
 Now, simply rinse and repeat to safely collaborate on changes to any project stored in a git repository.
