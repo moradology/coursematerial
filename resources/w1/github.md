@@ -30,12 +30,10 @@ Upon logging into the GitHub client, you'll have the option of completing a tuto
 These three steps are:  
 1. Make a new branch (copy the files we would like to make edits to into a new, working branch which is safe to change)  
 ![Github tutorial 2](img/github-2-tutorial.png)
-*TUTORIAL PIC 2 HERE*
 2. Make changes (change files on our working branch and commit the ones you want to keep)  
 ![Github tutorial 3](img/github-3-tutorial.png)
 ![Github tutorial 4](img/github-4-tutorial.png)
 ![Github tutorial 5](img/github-5-tutorial.png)
-*TUTORIAL PIC 3-5 HERE*
 3. Open a pull request (request that our working branch changes be incorporated back onto the main branch)  
 ![Github tutorial 6](img/github-6-tutorial.png)
 
